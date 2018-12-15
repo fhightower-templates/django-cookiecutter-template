@@ -1,5 +1,7 @@
 {{ "{%" }} extends '{{cookiecutter.project_slug}}/base.html' {{ "%}" }}
 
+{{ "{%" }} block title {{ "%}" }}{{ cookiecutter.project_name }}{{ "{%" }} endblock {{ "%}" }}
+
 {{ "{%" }} block content {{ "%}" }}
     <h2>Welcome to {{cookiecutter.project_name}}!</h2>
 
